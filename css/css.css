@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	background: #f4f4f4;
+}
+
+#principal{
+	width: auto;
+	height: auto;
+}
+
+#cabecalho {
+	width: auto;
+	height: 166px;
+	background: url(../imagens/fundo-menu.png);
+}
+
+#cabecalho_superior{
+	width: 100%;
+}
+
+.fundo_azul{
+	background: #28A5D9;
+}
+.fundo_principal{
+	background: url(../imagens/fundo-menu.png);
+}
+#menu-cima{
+	width: auto;
+	height: 20px;
+	background: #fff;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 10px;
+}
+
+#menu-cima ul{
+	width: 300px;
+	float: right;
+	text-align: right;
+	margin-right: 80px;
+	margin-top: 3px;
+}
+
+#menu-cima ul li{
+	display: inline;
+	margin-left: 10px;
+}
+
+#menu-cima ul li a{
+	color: #000;
+	text-decoration: none;
+}
+
+#menu-cima ul li a:hover{
+	color: red;
+}
+
+#cabecalho_meio{
+	width: auto;
+	height: 110px;
+	position: relative;
+}
+
+#cabecalho_meio h1 {
+	text-indent: -9999px;
+	width: 175px;
+	height: 52px;
+	background: url(../imagens/img-logo.png) no-repeat top right;
+	position: absolute;
+	top: 25px;
+	left: 60px;
+}
+
+.sacola{
+	background: url(../imagens/carrinho.png) no-repeat top right;
+	font-size: 10px;
+	width: 200px;
+	height: 25px;
+	position: absolute;
+	top: 10px;
+	right: 200px; 
+}
+
+.busca{
+	position: absolute;
+	width: 500px;
+	height: 35px;
+	text-align: right;
+	top: 45px;
+	right: 200px;
+}
+
+.busca input[type=search]{
+	width: 300px;
+	height: 25px;
+}
+
+#cabecalho_inferior{
+	width: auto;
+	border-bottom: 1px solid #ccc;
+	line-height: 22px;
+}
+
+#menu-principal{
+	width: auto;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#menu-principal ul{
+	list-style: none;
+	font-family: "Trebucht MS";
+}
+
+#menu-principal ul li {
+	display: inline;
+	margin-left: 5px;
+	padding: 5px 30px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.linha-vertical {
+	border-right: 1px solid #ccc;
+}
+
+#menu-principal ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
+#menu-principal ul li a:hover {
+	color: red; 
+}
+
+.banner{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#corpo {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 5px;
+	margin-top: 5px;
+}
+
+.categorias{
+	width: 219px;
+	height: auto;
+	float: left;
+	margin-right: 8px;
+	border: solid 1px #ccc;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.categorias h2 {
+	width: 210px;
+	height: 19px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.categorias ul {
+	width: 219px;
+	list-style: none;
+}
+
+.categorias ul li a {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.categorias ul li a:hover {
+	color: #000;
+	font-size: 17px;
+}
+
+.categorias ul ul{
+	width: 100%;
+	background: #fff;
+}
+
+.categorias ul ul li{
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0 5px 15px;
+}
+
+.categorias ul ul li a {
+	color: #666;
+	font-size: 12px;
+}
+
+.categorias ul ul li a:hover {
+	color: #00ccff;
+	font-size: 13px;
+}
+
+.titulo{
+	width: 700px;
+	height: 19px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	color: #fff; 
+}
+
+#lado-direito{
+	width: 710px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+}
+
+.vitrine{
+	margin: 10px 0;
+	padding: 5px;
+	width: 698px;
+	height: auto;
+	border: solid 1px #ccc;
+}
+
+.vitrine h2, .vitrine ul {
+	width: 691px;
+	border: solid 1px #ccc;
+	padding: 2px;
+	background: #FBFBFB;
+}
+
+.vitrine ul{
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.vitrine h2 {
+	height: 20px;
+}
+
+.vitrine li{
+	width: 160px;
+	margin: 4px;
+	padding-bottom: 10px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.vitrine a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none; 
+}
+
+.vitrine figure {
+	margin-bottom: 10px;
+}
+
+.vitrine span{
+	color: #ff0000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.vitrine input {
+	width: 94px;
+	height: 33px;
+	background: url(../imagens/comprar.png) no-repeat;
+	border: 0;
+	margin-top: 5px;
+}
+
+#rodape {
+	width: 100%;
+}
+
+#rodape-todo {
+	margin: 0 auto;
+	width: auto;
+	height: 160px;
+}
+
+#caixa {
+	margin-top: 20px;
+	float:left;
+	width: 380px;
+	color: #FFF;
+	margin-left: 100px;
+}
+
+#caixa2 {
+	margin-top: 20px;
+	float: right;
+	width: 380px;
+	color: #FFF;
+	margin-left: 100px;
+}
+
+.limpa {
+	clear: both;
+}
+
+#rodape-menu{
+	width: 100%;
+	margin: 0 auto;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 3px solid #FFF;
+	line-height: 22px;
+}
+
+#rodape-menu ul {
+	width: 500px;
+	float: right;
+	margin-right: 30px;
+	list-style: none;
+	font-family: "Trebucht MS";
+	padding-top: 8px;
+}
+
+#rodape-menu ul li{
+	padding: 10px;
+	display: inline;
+	padding: 10px;
+}
+
+#rodape-menu ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#rodape-menu ul li a:hover{
+	color: #000;
+}
+
+#direitos-autorais{
+	width: auto;
+	height: 30px;
+	text-align: center;
+}
+
+#direitos-autorais h3{
+	font-size: 12px;
+	font-family: "Trebucht MS";
+	color: #000;
+	margin-top: 8px;
+}
